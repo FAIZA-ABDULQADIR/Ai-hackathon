@@ -19,5 +19,7 @@
         }
       ]
     }
-  ]
+  ],
+  "buildCommand": "npm run build:vercel",
+  "outputDirectory": "build"
 }
