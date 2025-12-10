@@ -9,14 +9,14 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-username.github.io',
+  url: 'https://FAIZA-ABDULQADIR.github.io',
   // Set the /<base>/ pathname under which your site is served
   // For GitHub Pages deployment, this is often '/<project-name>/'
-  baseUrl: '/ai-textbook/',
+  baseUrl: '/Ai-hackathon/',
 
   // GitHub pages deployment config.
-  organizationName: 'your-username', // Usually your GitHub org/user name.
-  projectName: 'ai-textbook', // Usually your repo name.
+  organizationName: 'FAIZA-ABDULQADIR', // Usually your GitHub org/user name.
+  projectName: 'Ai-hackathon', // Usually your repo name.
   deploymentBranch: 'gh-pages', // The branch to deploy to.
 
   onBrokenLinks: 'warn',
@@ -40,14 +40,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/your-username/ai-textbook/tree/main/',
+            'https://github.com/FAIZA-ABDULQADIR/Ai-hackathon/tree/main/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/your-username/ai-textbook/tree/main/',
+            'https://github.com/FAIZA-ABDULQADIR/Ai-hackathon/tree/main/',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -80,7 +80,7 @@ const config = {
             value: '<a class="navbar__link" href="#" onclick="event.preventDefault(); if (window.openSignInModal) window.openSignInModal();">Sign In</a>',
           },
           {
-            href: 'https://github.com/your-username/ai-textbook',
+            href: 'https://github.com/FAIZA-ABDULQADIR/Ai-hackathon',
             label: 'GitHub',
             position: 'right',
           },
@@ -124,7 +124,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/your-username/ai-textbook',
+                href: 'https://github.com/FAIZA-ABDULQADIR/Ai-hackathon',
               },
             ],
           },
