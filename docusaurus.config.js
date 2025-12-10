@@ -2,6 +2,10 @@
 // `@type` JSDoc annotations allow IDEs and type-checking tools to autocomplete
 import { themes as prismThemes } from 'prism-react-renderer';
 
+// Determine base URL based on environment
+const isVercel = process.env.DEPLOYMENT_ENV === 'vercel' || process.env.VERCEL === '1';
+const baseUrl = process.env.BASE_URL || (isVercel ? '/' : '/Ai-hackathon/');
+
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Interactive AI-Driven Physical AI & Humanoid Robotics Book',
@@ -12,7 +16,7 @@ const config = {
   url: 'https://FAIZA-ABDULQADIR.github.io',
   // Set the /<base>/ pathname under which your site is served
   // For GitHub Pages deployment, this is often '/<project-name>/'
-  baseUrl: '/Ai-hackathon/',
+  baseUrl: baseUrl,
 
   // GitHub pages deployment config.
   organizationName: 'FAIZA-ABDULQADIR', // Usually your GitHub org/user name.
