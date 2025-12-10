@@ -1,0 +1,28 @@
+---
+title: Chapter 3 - URDF and Robot Modeling
+description: "Understanding URDF for robot description and joint types
+sidebar_position: 4
+---
+
+# Chapter 3: URDF and Robot Modeling
+
+## Unified Robot Description Format (URDF)
+
+URDF (Unified Robot Description Format) is an XML format for representing a robot model. It defines the physical and visual properties of a robot, including links, joints, and their relationships.
+
+## Key Components
+
+### Links
+
+Links represent rigid bodies of the robot. Each link has physical properties like mass, inertia, and visual/collision properties.
+
+### Joints
+
+Joints define the relationship between links. Common joint types include:
+- Revolute: Rotational joint with limited range
+- Continuous: Rotational joint without limits
+- Prismatic: Linear sliding joint
+- Fixed: No movement between links
+
+## Looking Ahead
+

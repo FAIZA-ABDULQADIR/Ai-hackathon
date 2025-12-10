@@ -1,0 +1,30 @@
+---
+title: Chapter 7 - Perception Systems
+description: "Computer vision and sensor fusion for robotics
+sidebar_position: 8
+---
+
+# Chapter 7: Perception Systems
+
+## Robotic Perception
+
+Robotic perception is the process by which robots interpret sensory data to understand their environment. This includes processing data from cameras, LiDAR, IMUs, and other sensors to build a coherent understanding of the world.
+
+## Key Technologies
+
+### Computer Vision
+
+Computer vision enables robots to interpret visual information:
+- Object detection and recognition
+- Scene understanding
+- Feature extraction and matching
+
+### Sensor Fusion
+
+Sensor fusion combines data from multiple sensors to create a more accurate and reliable understanding:
+- Kalman filtering
+- Particle filters
+- Multi-sensor integration
+
+## Looking Ahead
+

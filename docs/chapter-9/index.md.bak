@@ -1,0 +1,30 @@
+---
+title: Chapter 9 - Vision-Language Models
+description: "Whisper, LLMs, and multimodal AI for robotics
+sidebar_position: 10
+---
+
+# Chapter 9: Vision-Language Models
+
+## Multimodal AI in Robotics
+
+Multimodal AI combines multiple types of input (vision, language, audio) to enable more sophisticated robot behaviors. This includes vision-language models that can understand and respond to both visual and linguistic information.
+
+## Key Technologies
+
+### Whisper for Voice Recognition
+
+Whisper is OpenAI's automatic speech recognition system that can:
+- Convert speech to text with high accuracy
+- Handle multiple languages
+- Operate in noisy environments
+
+### Large Language Models (LLMs)
+
+LLMs provide planning and reasoning capabilities:
+- Task decomposition
+- Natural language understanding
+- Context-aware responses
+
+## Looking Ahead
+

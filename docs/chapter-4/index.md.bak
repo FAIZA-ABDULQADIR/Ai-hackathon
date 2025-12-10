@@ -1,0 +1,30 @@
+---
+title: Chapter 4 - Gazebo Simulation
+description: "Physics, rendering, and sensor simulation in Gazebo
+sidebar_position: 5
+---
+
+# Chapter 4: Gazebo Simulation
+
+## Introduction to Gazebo
+
+Gazebo is a powerful robotics simulator that provides accurate physics simulation, high-quality graphics, and convenient programmatic interfaces. It enables testing of robotics applications without the need for physical hardware.
+
+## Core Features
+
+### Physics Simulation
+
+Gazebo uses robust physics engines to simulate real-world physics including:
+- Collision detection
+- Mass, friction, and damping properties
+- Joint constraints and limits
+
+### Sensor Simulation
+
+Gazebo provides realistic simulation of various sensors:
+- Camera sensors
+- LiDAR and other range sensors
+- IMU and other inertial sensors
+
+## Looking Ahead
+

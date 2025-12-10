@@ -1,0 +1,30 @@
+---
+title: Chapter 11 - Action Execution
+description: "ROS action execution and integration
+sidebar_position: 12
+---
+
+# Chapter 11: Action Execution
+
+## Executing Robotic Actions
+
+Action execution is the process of converting high-level plans into specific robotic behaviors. This involves coordinating multiple subsystems to perform complex tasks reliably.
+
+## ROS Actions
+
+### Action Architecture
+
+ROS actions provide goal-oriented communication:
+- Goal: Request for the action to be performed
+- Feedback: Updates on progress toward the goal
+- Result: Final outcome of the action
+
+### Integration with Planning Systems
+
+Action execution integrates with planning systems:
+- Plan execution monitoring
+- Error handling and recovery
+- Status reporting to higher-level systems
+
+## Looking Ahead
+

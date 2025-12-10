@@ -1,0 +1,30 @@
+---
+title: Chapter 6 - Isaac Platform Overview
+description: "NVIDIA Isaac platform and photorealistic simulation
+sidebar_position: 7
+---
+
+# Chapter 6: Isaac Platform Overview
+
+## Introduction to NVIDIA Isaac
+
+NVIDIA Isaac is a comprehensive platform for developing, simulating, and deploying AI-powered robots. It includes Isaac Sim for simulation, Isaac ROS for perception and navigation, and Isaac Apps for reference robot applications.
+
+## Core Components
+
+### Isaac Sim
+
+Isaac Sim is a robotics simulator built on NVIDIA Omniverse. It provides:
+- Photorealistic rendering
+- Physically accurate simulation
+- GPU-accelerated computing
+
+### Isaac ROS
+
+Isaac ROS provides accelerated perception and navigation capabilities:
+- Hardware-accelerated algorithms
+- Optimized computer vision pipelines
+- Real-time processing capabilities
+
+## Looking Ahead
+

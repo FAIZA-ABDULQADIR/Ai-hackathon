@@ -1,0 +1,155 @@
+/**
+ * Custom CSS for the Interactive AI-Driven Physical AI & Humanoid Robotics Book
+ * Sci-fi themed styling
+ */
+
+/* Sci-fi themed color scheme */
+:root {
+  --ifm-color-primary: #7873f5;
+  --ifm-color-primary-dark: #625dd9;
+  --ifm-color-primary-darker: #5752c1;
+  --ifm-color-primary-darkest: #45419c;
+  --ifm-color-primary-light: #8d88f7;
+  --ifm-color-primary-lighter: #a29df9;
+  --ifm-color-primary-lightest: #b7b2fb;
+  --ifm-color-secondary: #ff6ec7;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #a29df9;
+  --ifm-color-primary-dark: #8d88f7;
+  --ifm-color-primary-darker: #7873f5;
+  --ifm-color-primary-darkest: #625dd9;
+  --ifm-color-primary-light: #b7b2fb;
+  --ifm-color-primary-lighter: #cccbfd;
+  --ifm-color-primary-lightest: #e1e0fe;
+  --ifm-color-secondary: #ff88d3;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* Sci-fi styling for interactive elements */
+.button {
+  border-radius: 50px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.button--secondary {
+  background-color: var(--ifm-color-secondary) !important;
+  border-color: var(--ifm-color-secondary) !important;
+  color: white !important;
+}
+
+.button--secondary:hover {
+  background-color: #e05da0 !important;
+  border-color: #e05da0 !important;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(255, 110, 199, 0.6) !important;
+}
+
+/* Custom styling for code blocks */
+code {
+  background-color: rgba(120, 115, 245, 0.1);
+  padding: 2px 6px;
+  border-radius: 4px;
+  border: 1px solid rgba(120, 115, 245, 0.2);
+}
+
+/* Custom styling for sidebar */
+.menu__list-item-collapsible:hover {
+  background-color: rgba(120, 115, 245, 0.1);
+}
+
+/* Custom styling for tables */
+table {
+  display: table;
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid rgba(120, 115, 245, 0.3);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* Custom styling for robotics diagrams */
+.robotics-diagram {
+  border: 1px solid rgba(120, 115, 245, 0.5);
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 1rem 0;
+  background: linear-gradient(135deg, rgba(120, 115, 245, 0.05), rgba(255, 110, 199, 0.05));
+}
+
+/* Custom styling for callout blocks */
+.admonition {
+  border-left: 4px solid var(--ifm-color-primary);
+  background: linear-gradient(to right, rgba(120, 115, 245, 0.05), transparent);
+}
+
+/* Responsive design improvements */
+@media (max-width: 996px) {
+  .hero__title {
+    font-size: 2rem;
+  }
+
+  .hero__subtitle {
+    font-size: 1.2rem;
+  }
+}
+
+/* Sci-fi themed navigation */
+.navbar {
+  background: linear-gradient(135deg, #ff6ec7, #7873f5, #5c3bd0);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.navbar__title {
+  color: white;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+.navbar__link {
+  color: rgba(255, 255, 255, 0.9);
+  transition: color 0.3s ease;
+}
+
+.navbar__link:hover {
+  color: white;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+}
+
+/* Sci-fi themed footer */
+.footer {
+  background: linear-gradient(135deg, #000000, #5c3bd0, #7873f5);
+  color: white;
+}
+
+.footer__title {
+  color: #ff6ec7;
+}
+
+.footer__link-item {
+  color: rgba(255, 255, 255, 0.8);
+  transition: color 0.3s ease;
+}
+
+.footer__link-item:hover {
+  color: white;
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
+
+/* Sci-fi themed sidebar */
+.menu__list-item {
+  transition: background-color 0.3s ease;
+}
+
+.menu__link {
+  transition: all 0.3s ease;
+}
+
+.menu__link:hover {
+  background: rgba(120, 115, 245, 0.1);
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}

@@ -1,0 +1,30 @@
+---
+title: "Chapter 12 - Humanoid Robotics"
+description: ""Humanoid control, kinematics, and dynamics"
+sidebar_position: 13
+---
+
+# Chapter 12: Humanoid Robotics
+
+## Introduction to Humanoid Robots
+
+Humanoid robots are designed to mimic human form and behavior. They present unique challenges in control, balance, and locomotion due to their complex kinematic structure and need for dynamic stability.
+
+## Key Challenges
+
+### Kinematics and Dynamics
+
+Humanoid robots require sophisticated kinematic and dynamic models:
+- Forward and inverse kinematics
+- Dynamic balance and stability
+- Multi-degree-of-freedom control
+
+### Control Systems
+
+Control systems for humanoid robots include:
+- Walking pattern generation
+- Balance control algorithms
+- Whole-body control frameworks
+
+## Looking Ahead
+

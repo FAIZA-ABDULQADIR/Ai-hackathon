@@ -1,0 +1,30 @@
+#!/bin/bash
+
+# Validation script for Chapter 1 ROS 2 code examples
+# This script provides instructions for validating the code examples
+
+echo "Chapter 1 Code Examples Validation"
+echo "==================================="
+echo ""
+echo "To validate the Chapter 1 code examples, follow these steps:"
+echo ""
+echo "1. Ensure ROS 2 is installed (e.g., Humble Hawksbill):"
+echo "   - Check with: 'ros2 --version'"
+echo ""
+echo "2. Open two terminal windows"
+echo ""
+echo "3. In Terminal 1, run the publisher:"
+echo "   source /opt/ros/humble/setup.bash"
+echo "   python3 simple-publisher.py"
+echo ""
+echo "4. In Terminal 2, run the subscriber:"
+echo "   source /opt/ros/humble/setup.bash"
+echo "   python3 simple-subscriber.py"
+echo ""
+echo "5. You should see the publisher sending messages and the subscriber receiving them"
+echo ""
+echo "Expected Output:"
+echo "- Publisher terminal: Logging 'Publishing: \"Hello World: X\"' every 0.5 seconds"
+echo "- Subscriber terminal: Logging 'I heard: \"Hello World: X\"' when messages are received"
+echo ""
+echo "The examples demonstrate the basic publisher-subscriber pattern in ROS 2, which is fundamental to Physical AI systems where components communicate through topics."

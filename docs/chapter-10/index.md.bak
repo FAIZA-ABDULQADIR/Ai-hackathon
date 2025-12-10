@@ -1,0 +1,30 @@
+---
+title: Chapter 10 - Planning Systems
+description: "LLM planning and task decomposition
+sidebar_position: 11
+---
+
+# Chapter 10: Planning Systems
+
+## AI Planning in Robotics
+
+Planning systems in robotics involve generating sequences of actions to achieve specific goals. Modern AI planning integrates LLMs to create high-level task plans that can be executed by robotic systems.
+
+## Planning Approaches
+
+### Hierarchical Task Planning
+
+Hierarchical planning breaks complex tasks into manageable subtasks:
+- High-level goal decomposition
+- Mid-level task sequencing
+- Low-level action execution
+
+### Integration with LLMs
+
+LLMs enhance planning capabilities:
+- Natural language command interpretation
+- Context-aware plan generation
+- Adaptive plan modification
+
+## Looking Ahead
+

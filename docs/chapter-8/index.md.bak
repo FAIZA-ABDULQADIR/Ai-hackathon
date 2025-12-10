@@ -1,0 +1,30 @@
+---
+title: Chapter 8 - VSLAM and Navigation
+description: "Visual SLAM, navigation, and path planning
+sidebar_position: 9
+---
+
+# Chapter 8: VSLAM and Navigation
+
+## Visual Simultaneous Localization and Mapping (VSLAM)
+
+VSLAM is a technique that allows robots to build a map of an unknown environment while simultaneously tracking their location within that map using visual data from cameras.
+
+## Navigation Systems
+
+### Path Planning
+
+Path planning algorithms determine optimal routes for robot navigation:
+- Global planners (A*, Dijkstra's algorithm)
+- Local planners (DWA, TEB)
+- Dynamic obstacle avoidance
+
+### Navigation Stack
+
+The navigation stack integrates multiple components:
+- Costmap management
+- Localization (AMCL)
+- Path execution and monitoring
+
+## Looking Ahead
+
